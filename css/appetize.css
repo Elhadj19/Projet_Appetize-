@@ -1,0 +1,29 @@
+
+.star {
+    background-image: url(../images/star.png);
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    line-height: 16px;
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+    float: left;
+}
+
+.count {
+    color: rgba(0, 0, 0, 0.3);
+    font-weight: normal;
+    margin-left: 4px
+}
+
+.price {
+    line-height: 16px;
+    font-size: 16px;
+    color: #f34949;
+    width: auto;
+    text-align: right;
+}
+
+@keyframes bounce{from{transform:translateY(0px)}to{transform:translateY(-10px)}}
+@-webkit-keyframes bounce{from{transform:translateY(0px)}to{transform:translateY(-10px)}}
+.bounce {animation: bounce 1s infinite alternate;-webkit-animation: bounce 1s infinite alternate;}
