@@ -27,6 +27,14 @@
           @-webkit-keyframes bounce{from{transform:translateY(0px)}to{transform:translateY(-10px)}}
           .bounce {animation: bounce 1s infinite alternate;-webkit-animation: bounce 1s infinite alternate;}
       </style>
+      
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap-select.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap-select.min.js"></script>
+        <script src="js/countrypicker.min.js"></script>
   </head>
   <body>
 
@@ -373,13 +381,16 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <label for="">Ville</label>
-                    <select name="" id="" class="form-control">
+                    <label for="">Votre Nationalité</label>
+                    <select name="" id="" class="form-control selectpicker countrypicker"
+                            data-default="France">
+<!--
                       <option value="">Ville</option>
                       <option value="">Paris</option>
                       <option value="">Londres</option>
                       <option value="">Denvers</option>
                       <option value="">New York</option>
+-->
                     </select>
                   </div>
                 </div>
@@ -400,7 +411,7 @@
                 </div>
                 <div class="col-md-12 mt-3">
                   <div class="form-group">
-                    <input type="submit" value="Make a Reservation" class="btn btn-primary py-3 px-5 bounce">
+                    <input type="submit" value="Réservez une Table" class="btn btn-primary py-3 px-5 bounce">
                   </div>
                 </div>
               </div>
