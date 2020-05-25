@@ -388,6 +388,15 @@
                     <label for="">Votre Nationalité</label>
                     <select name="" id="" class="form-control selectpicker countrypicker"
                             data-default="France">
+=======
+                    <label for="">Votre Code Postal</label>
+                      
+                        <input id="code_postal" type="text" name="code_postal" onclick="GenerateParam(this.value)" onkeyup="GenerateParam(this.value)" onblur="closeSuggestBox();">
+                        <div style="visibility:hidden;overflow-y:auto;overflow-x:hidden;" id="suggestBoxElement"></div>
+                        <label for="">Votre Ville</label>
+                        <br>
+                        <input id="ville" type="text" name="ville">
+
 <!--
                       <option value="">Ville</option>
                       <option value="">Paris</option>
